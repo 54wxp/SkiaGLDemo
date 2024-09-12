@@ -1,4 +1,4 @@
-package com.yjy.skiaapplication;
+package com.wxp.skiaapplication;
 
 import android.graphics.Bitmap;
 import android.view.Surface;
@@ -22,7 +22,4 @@ public class SkiaUtils {
 
     public static native void drawFrame(int width, int height);
 
-    public static native void native_renderCanvas(Bitmap bitmap);
-
-    public static native void native_render(Surface surface,int width,int height);
 }

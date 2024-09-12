@@ -1,20 +1,9 @@
-package com.yjy.skiaapplication;
+package com.wxp.skiaapplication;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import android.graphics.PixelFormat;
-import android.os.Bundle;
-import android.view.ViewGroup;
-import android.opengl.GLSurfaceView;
-
-import com.yjy.skiaapplication.image.GLImageView;
-
-import javax.microedition.khronos.egl.EGL10;
-import javax.microedition.khronos.egl.EGLConfig;
-import javax.microedition.khronos.egl.EGLDisplay;
-import javax.microedition.khronos.egl.EGLContext;
-
-import okio.Okio;
 
 public class MainActivity extends AppCompatActivity {
 
